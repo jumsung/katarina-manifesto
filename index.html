@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17111f">
+  <meta name="description" content="원딜 카타리나 선언문 — 메타를 넘어선 신념">
+  <title>원딜 카타리나 선언문</title>
+  <style>
+    :root {
+      --bg: #100d16;
+      --panel: rgba(32, 23, 39, .88);
+      --pink: #ff8bc8;
+      --pink2: #ffc2e4;
+      --text: #f8f1fa;
+      --muted: #c6b7ce;
+      --line: rgba(255, 139, 200, .24);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0; color: var(--text);
+      font-family: Pretendard, "Noto Sans KR", system-ui, -apple-system, sans-serif;
+      background:
+        radial-gradient(ellipse at 75% 8%, rgba(151, 48, 111, .28), transparent 35%),
+        radial-gradient(ellipse at 10% 45%, rgba(92, 45, 122, .20), transparent 40%),
+        var(--bg);
+      line-height: 1.75;
+    }
+    a { color: var(--pink2); }
+    .wrap { width: min(940px, calc(100% - 32px)); margin: 0 auto; }
+    header { padding: 24px 0; display:flex; justify-content:space-between; align-items:center; gap:16px; }
+    .brand { font-size: .82rem; letter-spacing: .18em; color: var(--pink); font-weight: 800; }
+    .pill { border:1px solid var(--line); border-radius:999px; padding:6px 12px; color:var(--muted); font-size:.75rem; }
+    .hero { padding: 68px 0 54px; text-align:center; }
+    .eyebrow { color:var(--pink); letter-spacing:.22em; font-weight:800; font-size:.78rem; }
+    h1 { font-size:clamp(2.5rem, 8vw, 5.5rem); line-height:1.12; margin:18px 0; letter-spacing:-.06em; }
+    h1 span { color:var(--pink); text-shadow:0 0 35px rgba(255,139,200,.2); }
+    .subtitle { color:var(--muted); font-size:clamp(1rem, 2.5vw, 1.18rem); max-width:620px; margin:0 auto 28px; }
+    .cta { display:inline-block; text-decoration:none; border-radius:12px; background:var(--pink); color:#21101d; font-weight:900; padding:12px 18px; box-shadow:0 8px 30px rgba(255,139,200,.16); }
+    .notice { display:inline-block; margin-top:16px; font-size:.78rem; color:#a99ab2; }
+    main { padding-bottom:64px; }
+    .card { background:var(--panel); border:1px solid var(--line); border-radius:22px; padding:clamp(22px, 5vw, 40px); margin:18px 0; box-shadow:0 18px 60px rgba(0,0,0,.18); }
+    h2 { font-size:1.35rem; margin:0 0 14px; }
+    .num { color:var(--pink); font-size:.78rem; letter-spacing:.15em; font-weight:900; }
+    blockquote { margin:22px 0; padding:4px 0 4px 20px; border-left:3px solid var(--pink); color:var(--pink2); font-size:1.18rem; font-weight:750; }
+    .principles { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; }
+    .principle { padding:18px; border:1px solid var(--line); border-radius:16px; background:rgba(255,255,255,.025); }
+    .principle b { display:block; color:var(--pink2); margin-bottom:6px; }
+    .principle p { color:var(--muted); margin:0; font-size:.92rem; }
+    .disclaimer { color:#a99ab2; font-size:.8rem; }
+    footer { border-top:1px solid var(--line); padding:24px 0 40px; color:#9f90a8; font-size:.78rem; text-align:center; }
+    @media (max-width:640px) { .principles { grid-template-columns:1fr; } .hero { padding-top:48px; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">THE KATARINA MANIFESTO</div>
+      <div class="pill">ADC EDITION · 2026</div>
+    </header>
+
+    <section class="hero">
+      <div class="eyebrow">OFF-META, ON PURPOSE</div>
+      <h1>원딜 <span>카타리나</span><br>선언문</h1>
+      <p class="subtitle">메타가 정답을 정해줄 수는 있어도,<br>내가 게임을 즐기는 방식까지 정해줄 수는 없다.</p>
+      <a class="cta" href="#manifesto">선언문 읽기 ↓</a>
+      <div class="notice">이 페이지는 팬이 만든 비공식 페이지입니다.</div>
+    </section>
+
+    <main>
+      <section class="card" id="manifesto">
+        <div class="num">01 / THE BELIEF</div>
+        <h2>나는 왜 원딜 카타리나를 하는가</h2>
+        <p>사람들은 묻는다. “왜 원딜 카타리나야?”</p>
+        <p>나는 되묻는다. “왜 안 되는데?”</p>
+        <blockquote>메타는 참고 자료일 뿐, 신념을 대신할 수 없다.</blockquote>
+        <p>이 선택이 정석이 아니라는 사실은 알고 있다. 하지만 익숙한 답만 고르는 게임보다, 내가 믿는 선택으로 결과를 만들어 가는 게임이 더 재미있다.</p>
+      </section>
+
+      <section class="card">
+        <div class="num">02 / THE PRINCIPLES</div>
+        <h2>세 가지 원칙</h2>
+        <div class="principles">
+          <div class="principle"><b>Ⅰ. 신념</b><p>픽 하나로 실력이 결정되는 것은 아니다. 게임은 플레이로 증명한다.</p></div>
+          <div class="principle"><b>Ⅱ. 책임</b><p>색다른 선택을 했다면 그 선택의 결과도 내 몫이다.</p></div>
+          <div class="principle"><b>Ⅲ. 재미</b><p>승리도 중요하지만, 내가 좋아하는 방식으로 도전하는 재미도 중요하다.</p></div>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="num">03 / THE OATH</div>
+        <h2>픽을 잠그기 전에</h2>
+        <blockquote>나는 유행을 따라 픽하지 않는다.<br>나는 나의 선택을 플레이로 증명한다.</blockquote>
+        <p>팀원 여러분, 놀랄 수 있다는 건 이해합니다. 걱정도 할 수 있습니다. 그러니 게임이 시작되면 말보다 플레이를 먼저 봐 주세요.</p>
+        <p class="disclaimer">※ 위 문구는 예시 초안입니다. 네 실제 철학과 말투에 맞게 자유롭게 바꾸면 돼요.</p>
+      </section>
+    </main>
+
+    <footer>
+      UNOFFICIAL FAN-MADE PAGE · LEAGUE OF LEGENDS IS A TRADEMARK OF RIOT GAMES, INC.<br>
+      이 사이트는 라이엇 게임즈와 공식적으로 관련이 없습니다.
+    </footer>
+  </div>
+</body>
+</html>
